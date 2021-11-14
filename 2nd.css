@@ -1,0 +1,103 @@
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #346;
+    /* font-family: 'Estonia', 'cursive'; */
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 100%;
+    background-image: url(https://source.unsplash.com/1600x900/?clothing);
+    background-size: cover;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    background: rgb(46, 44, 44);
+    border-radius: 50px;
+    color: white;
+    padding: 2em;
+}
+.userInput{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: white;
+    color:  black;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100%);
+}
+.color-btns{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-gap: 15px;
+    border: none;
+    grid-template-columns: auto auto;
+    padding: 2em;
+    font-style: 'Playfair Display';
+}
+.red-btn{
+    border-radius: 24px;
+    padding: 1em;
+    background: rgb(192, 87, 87);
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    width: 200px;
+    font-style: 'Playfair Display';
+}
+.blue-btn{
+    border-radius: 24px;
+    padding: 1em;
+    background: rgb(61, 61, 177);
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    width: 200px;
+    font-style: 'Playfair Display';
+}
+.black-btn{
+    border-radius: 24px;
+    padding: 1em;
+    background: rgb(51, 47, 47);
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    font-style: 'Playfair Display';
+
+}
+.white-btn{
+    border-radius: 24px;
+    padding: 1em;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    width: 200px;
+    font-style: 'Playfair Display';
+}
+.submit-btn{
+    margin: 5em;
+    border-radius: 44px;
+    border: none;
+    /* height: 44px; */
+    width: 100px;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    justify-content: center;
+    padding: 0.5em
+}
+/* .color-btn{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} */
